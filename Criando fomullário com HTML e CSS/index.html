@@ -17,19 +17,19 @@
     <form>
         <fieldset class="grupo">
             <div>
-                <label>Nome</label>
-                <input type="text" name="nome" id="nome">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
             </div>
 
             <div class="campo">
-                <label>Sobrenome</label>
-                <input type="text" name="nome" id="sobrenome">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="nome" id="sobrenome" required>
             </div>
         </fieldset>
 
         <div class="campo">
-            <label>E-mail</label>
-            <input type="email">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" required>
         </div>
 
         <div class="campo">
@@ -45,7 +45,7 @@
         </div>
 
         <div class="campo">
-            <label>Senioridade</label>
+            <label><strong>Senioridade</strong></label>
             <select id="senioridade">
                 <option selected disable value="...">Selecione</option>
                 <option>Junior</option>
