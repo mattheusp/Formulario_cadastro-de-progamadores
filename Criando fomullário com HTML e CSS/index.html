@@ -9,30 +9,30 @@
 <body>
     
     <div>
-        <h1>Formulário cadastro de progamadores</h1>
-        <p>Complete suas informações</p>
+        <h1 id="titulo">Cadastro de DEVs</h1>
+        <p id="subtitulo">Complete suas informações</p>
         <br>
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="grupo">
             <div>
                 <label>Nome</label>
                 <input type="text" name="nome" id="nome">
             </div>
 
-            <div>
+            <div class="campo">
                 <label>Sobrenome</label>
                 <input type="text" name="nome" id="sobrenome">
             </div>
         </fieldset>
 
-        <div>
+        <div class="campo">
             <label>E-mail</label>
             <input type="email">
         </div>
 
-        <div>
+        <div class="campo">
             <label>De qual lado da aplicação você desenvolve?</label>
             <label>
                 <input type="radio" name="devweb" value="FrontEnd">Front-End
@@ -44,7 +44,7 @@
             <input type="radio" name="devweb" value="fullstack">FullStack
         </div>
 
-        <div>
+        <div class="campo">
             <label>Senioridade</label>
             <select id="senioridade">
                 <option selected disable value="...">Selecione</option>
@@ -53,7 +53,7 @@
                 <option>Senior</option>
             </select>
         </div>
-        <fieldset>
+        <fieldset class="grupo">
             <div>
                 <label>Selecione as tecnologia que utiliza</label>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -72,7 +72,7 @@
                 <label for="tecnologia7">Java</label>
             </div>
         </fieldset>
-    <div>
+    <div class="campo">
         <br>
         <label>Conte um pouco da dua experiência</label>
         <textarea row="6" style="width:26em" id="experiência"></textarea>
