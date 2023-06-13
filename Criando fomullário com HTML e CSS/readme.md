@@ -2,6 +2,12 @@
 
 Este é um formulário simples de cadastro de programadores, desenvolvido utilizando apenas HTML e CSS. O formulário permite aos usuários preencher informações básicas sobre si mesmos.
 
+# ⚠️ Créditos
+Esse projeto foi criado com base em uma vídeo-aula do canal da Rafaella Ballerini.
+Canal do Youtube da Rafaella: https://www.youtube.com/@rafaellaballerini
+GitHub da Rafaella: https://github.com/rafaballerini
+
+
 ## Pré-requisitos 🔴
 
 Antes de começar, certifique-se de ter um navegador da web instalado em seu computador para visualizar o formulário.
